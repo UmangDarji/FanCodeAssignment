@@ -8,7 +8,7 @@ const config = {
       host: '127.0.0.1',
       port: 3306,
       username: 'root',
-      password: 'umang@123',
+      password: 'password',
       database: 'test'
     },
   },
@@ -21,7 +21,7 @@ const config = {
       host: '127.0.0.1',
       port: 3306,
       username: 'root',
-      password: 'umang@123',
+      password: 'password',
       database: 'test'
     },
   }
