@@ -14,3 +14,37 @@ Added 3 additional fields in SQL query (models file of sports.js)  of /sport/tou
 
 Problem 3.  
 Created a new route, controller and model folder named "newsArticle" for requirement of News Support for Matches and Tours.
+  
+cURL command of /news/create API
+```
+curl --location 'http://localhost:3000/news/create' \
+--header 'Content-Type: application/json' \
+--data '{
+    "newsTitle": "Testtingg8",
+    "newsDescription": "Testtingg8",
+    "matchId": 2,  //optional if tourId is given
+    "tourId": 1    //optional if matchId is given
+}'
+
+```  
+  
+cURL command of /news/tour API
+
+```
+curl --location 'http://localhost:3000/news/tour?tourId=2'
+
+```
+  
+cURL command of /news/match API  
+  
+```
+curl --location 'http://localhost:3000/news/match?matchId=1'
+
+```  
+  
+cURL command of /news/sports API  
+  
+```
+curl --location 'http://localhost:3000/news/sprts?sportsId=1'
+
+``` 
